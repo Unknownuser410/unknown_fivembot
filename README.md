@@ -33,8 +33,8 @@ Ein Discord-Bot zur Interaktion mit einem FiveM-Server. Dieser Bot ermöglicht e
 - 🔍 `Spieler ID (Meistens)` - Gib den betreffenden Spieler an.
 - ❌ `Zusatzparamter (Command abhängig)` - Gebe Zusatzparamter an.
 
-### 🤖 Bot Commands
-#### 📌 Allgemein
+## 🤖 Bot Commands
+### 📌 Allgemein
 - `!test` - Printet Test Nachrichten
 - `!status` - Zeigt alle Spieler des Servers
 
