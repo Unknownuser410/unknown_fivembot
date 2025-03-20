@@ -14,7 +14,7 @@ Ein leistungsstarker Discord-Bot zur Interaktion mit einem FiveM-Server. Dieser 
    - Lade die Dateien herunter und verschiebe sie in deinen `resources`-Ordner von FiveM.
    - Stelle sicher, dass der Ordner in der `server.cfg` als Ressource gestartet wird.
 
-2. **🔑 Bot-Token erstellen**
+2. **🔑 Bot einrichten**
    - Erstelle einen neuen Bot im [Discord Developer Portal](https://discord.com/developers/applications)
    - Stelle sicher dass der Bot `Presence Intent, Server Members Intent und Message Content Intent hat`.
    - Kopiere den Token und füge ihn in die `config.lua` ein.
