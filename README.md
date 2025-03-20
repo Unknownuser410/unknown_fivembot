@@ -48,13 +48,14 @@ Hier sind die verfügbaren Funktionen für Entwickler:
 - **Parameter:** Titel, Nachricht, Farbe aus der Config, Discord ID des Absenders (abfragbar mit GetDiscordId)
 - **Beschreibung:** Sendet eine Nachricht an einen Discord-Channel.
 
-### 🆔 GetDiscordId(src)
-- **Parameter:** Spieler ID
-- **Beschreibung:** Gibt die Discord ID des Spielers zurück.
 
 ### 📩 senddiscorddmmsg(src, title, msg, type, author)
 - **Parameter:** Spieler ID des Empfängers, Titel, Nachricht, Farbe aus der Config, Discord ID des Absenders (abfragbar mit GetDiscordId)
 - **Beschreibung:** Sendet eine Direktnachricht an einen bestimmten Discord-Nutzer.
+
+### 🆔 GetDiscordId(src)
+- **Parameter:** Spieler ID
+- **Beschreibung:** Gibt die Discord ID des Spielers zurück.
 
 ### 🖥️ sendcmd(msg, type)
 - **Parameter:** Nachricht, Error oder Success
