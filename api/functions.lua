@@ -153,6 +153,15 @@ end
 -----------------------
 
 
+--exports--
+exports("checkifhasrole", getRoles);
+exports("getRoles", getRoles);
+exports("senddiscorddmmsg", senddiscorddmmsg);
+exports("senddiscordmsg", senddiscordmsg);
+exports("GetDiscordId", GetDiscordId);
+-----------------
+
+
 --Version Check--
 Citizen.CreateThread(function()
     local resourceName = GetCurrentResourceName()
