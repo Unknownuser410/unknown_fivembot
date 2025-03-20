@@ -20,7 +20,7 @@ Ein Discord-Bot zur Interaktion mit einem FiveM-Server. Dieser Bot ermöglicht e
 
 2. **🔑 Bot einrichten**
    - Erstelle einen neuen Bot im [Discord Developer Portal](https://discord.com/developers/applications)
-   - Stelle sicher dass der Bot `Presence Intent, Server Members Intent und Message Content Intent hat`.
+   - Stelle sicher, dass der Bot `Presence Intent, Server Members Intent und Message Content Intent hat`.
    - Kopiere den Token und füge ihn in die `config.lua` ein.
    - Kopiere deine Discord Server ID und die Channel ID für den Bot in die `config.lua`.
    - Fülle die `config.lua` zu deinen Wünschen aus.
