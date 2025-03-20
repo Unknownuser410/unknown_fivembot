@@ -1,6 +1,6 @@
 # 🚀 FiveM Discord Bot
 
-Ein Discord-Bot zur Interaktion mit einem FiveM-Server. Dieser Bot ermöglicht es, direkt von Discord aus FiveM-Interaktionen und -Befehle auszuführen (Komplett in Lua). 🎮
+Ein Discord-Bot zur Interaktion mit einem FiveM-Server. Dieser Bot ermöglicht es, direkt von Discord aus FiveM Interaktionen und Befehle auszuführen (Komplett in Lua). 🎮
 
 ## ✨ Funktionen
 - 🔹 Senden von Befehlen an den FiveM-Server
