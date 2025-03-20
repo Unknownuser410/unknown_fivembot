@@ -57,6 +57,10 @@ Hier sind die verfügbaren Funktionen für Entwickler, falls ihr Commands änder
 - **Parameter:** Spieler ID
 - **Beschreibung:** Gibt die Discord ID des Spielers zurück.
 
+### 🆔 checkifonline(src)
+- **Parameter:** Spieler ID
+- **Beschreibung:** Gibt true zurück wenn der Spieler Online ist.
+
 ### 🖥️ sendcmd(msg, type)
 - **Parameter:** Nachricht, Error oder Success
 - **Beschreibung:** Sendet eine Nachricht in die Server-Konsole.
