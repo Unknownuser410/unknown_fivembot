@@ -34,7 +34,7 @@ Ein Discord-Bot zur Interaktion mit einem FiveM-Server. Dieser Bot ermöglicht e
 - ✅ ESX und oxmysql (optional, für einige Funktionen erforderlich, kann aber einfach auf standalone geändert werden)
 
 ## 🛠️ Developer Docs
-Hier sind die verfügbaren Funktionen für Entwickler:
+Hier sind die verfügbaren Funktionen für Entwickler, falls ihr Commands ändern oder hinzufügen wollt:
 
 ### 🔍 checkifhasrole(src, rolename)
 - **Parameter:** Spieler ID, gesuchter Rollenname aus der Config
