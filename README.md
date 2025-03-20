@@ -8,6 +8,7 @@ Ein Discord-Bot zur Interaktion mit einem FiveM-Server. Dieser Bot ermöglicht e
 - 🔹 Verwaltung von Spielern und Serveraktionen über Discord
 - 🔹 Anpassbare Berechtigungen für verschiedene Benutzerrollen
 - 🔹 Unterstützung für ESX und OXMySQL (kann leicht auf Standalone angepasst werden)
+- 🔹 Exports um Funktionen in anderen Scripts zu nutzen
 
 ## 📌 Voraussetzungen
 - ✅ Ein Discord-Bot und seinen Token vom [Discord Developer Portal](https://discord.com/developers/applications)
@@ -62,7 +63,7 @@ Ein Discord-Bot zur Interaktion mit einem FiveM-Server. Dieser Bot ermöglicht e
 - `!car [ID] [AUTO]` - Spawne dem Spieler ein Auto
 - `!givecar [ID] [AUTO]` - Gebe dem Spieler ein Auto (Mit Datenbank Speicherung)
 
-## 🛠️ Developer Docs
+## 🛠️ Developer Docs - Functions
 Hier sind die verfügbaren Funktionen für Entwickler, falls ihr Commands ändern oder hinzufügen wollt:
 
 ### 🔍 checkifhasrole(src, rolename)
@@ -93,3 +94,14 @@ Hier sind die verfügbaren Funktionen für Entwickler, falls ihr Commands änder
 ### 🖥️ sendcmd(msg, type)
 - **Parameter:** Nachricht, Error oder Success
 - **Beschreibung:** Sendet eine Nachricht in die Server-Konsole.
+
+## 🛠️ Developer Docs - Exports
+- **Nutzung:** exports["unknown_fivembot"]:exportname(data)
+
+### Verfügbare Exports:
+- checkifhasrole
+- getRoles
+- senddiscorddmmsg
+- senddiscordmsg
+- GetDiscordId
+
