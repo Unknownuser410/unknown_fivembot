@@ -37,26 +37,26 @@ Ein leistungsstarker Discord-Bot zur Interaktion mit einem FiveM-Server. Dieser 
 Hier sind die verfügbaren Funktionen für Entwickler:
 
 ### 🔍 checkifhasrole(src, rolename)
-**Parameter:** Spieler ID, gesuchter Rollenname aus der Config
-**Beschreibung:** Prüft, ob ein Spieler eine bestimmte Discord-Rolle besitzt.
+- **Parameter:** Spieler ID, gesuchter Rollenname aus der Config
+- **Beschreibung:** Prüft, ob ein Spieler eine bestimmte Discord-Rolle besitzt.
 
 ### 📜 getRoles(src)
-**Parameter:** Spieler ID
-**Beschreibung:** Gibt alle Discord-Rollen eines Spielers zurück.
+- **Parameter:** Spieler ID
+- **Beschreibung:** Gibt alle Discord-Rollen eines Spielers zurück.
 
 ### ✉️ senddiscordmsg(title, msg, type, author)
-**Parameter:** Titel, Nachricht, Farbe aus der Config, Discord ID des Absenders (abfragbar mit GetDiscordId)
-**Beschreibung:** Sendet eine Nachricht an einen Discord-Channel.
+- **Parameter:** Titel, Nachricht, Farbe aus der Config, Discord ID des Absenders (abfragbar mit GetDiscordId)
+- **Beschreibung:** Sendet eine Nachricht an einen Discord-Channel.
 
 ### 🆔 GetDiscordId(src)
-**Parameter:** Spieler ID
-**Beschreibung:** Gibt die Discord ID des Spielers zurück.
+- **Parameter:** Spieler ID
+- **Beschreibung:** Gibt die Discord ID des Spielers zurück.
 
 ### 📩 senddiscorddmmsg(src, title, msg, type, author)
-**Parameter:** Spieler ID des Empfängers, Titel, Nachricht, Farbe aus der Config, Discord ID des Absenders (abfragbar mit GetDiscordId)
-**Beschreibung:** Sendet eine Direktnachricht an einen bestimmten Discord-Nutzer.
+- **Parameter:** Spieler ID des Empfängers, Titel, Nachricht, Farbe aus der Config, Discord ID des Absenders (abfragbar mit GetDiscordId)
+- **Beschreibung:** Sendet eine Direktnachricht an einen bestimmten Discord-Nutzer.
 
 ### 🖥️ sendcmd(msg, type)
-**Parameter:** Nachricht, Error oder Success
-**Beschreibung:** Sendet eine Nachricht in die Server-Konsole.
+- **Parameter:** Nachricht, Error oder Success
+- **Beschreibung:** Sendet eine Nachricht in die Server-Konsole.
 
