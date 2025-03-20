@@ -30,8 +30,7 @@ Ein leistungsstarker Discord-Bot zur Interaktion mit einem FiveM-Server. Dieser 
 - ❌ `Zusatzparamter (Command abhängig)` - Gebe Zusatzparamter an.
 
 ## 📌 Voraussetzungen
-- ✅ Ein laufender FiveM-Server
-- ✅ Ein Discord-Bot und seinen Token von https://discord.com/developers/applications
+- ✅ Ein Discord-Bot und seinen Token vom [Discord Developer Portal](https://discord.com/developers/applications)
 - ✅ ESX und oxmysql (optional, für einige Funktionen erforderlich, kann aber einfach auf standalone geändert werden)
 
 ## 🛠️ Developer Docs
