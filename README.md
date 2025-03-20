@@ -32,6 +32,8 @@ Ein Discord-Bot zur Interaktion mit einem FiveM-Server. Dieser Bot ermöglicht e
 - 📝 `prefix <befehl>` - Führe einen bestimmten Befehl mit eurem Prefix aus der Config aus.
 - 🔍 `Spieler ID (Meistens)` - Gib den betreffenden Spieler an.
 - ❌ `Zusatzparamter (Command abhängig)` - Gebe Zusatzparamter an.
+![grafik](https://github.com/user-attachments/assets/e8f409ed-41d7-486b-98c3-9004a1ca7478)
+
 
 ## 🤖 Bot Commands
 ### 📌 Allgemein
