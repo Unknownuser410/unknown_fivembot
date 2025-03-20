@@ -9,6 +9,10 @@ Ein Discord-Bot zur Interaktion mit einem FiveM-Server. Dieser Bot ermöglicht e
 - 🔹 Anpassbare Berechtigungen für verschiedene Benutzerrollen
 - 🔹 Unterstützung für ESX und OXMySQL (kann leicht auf Standalone angepasst werden)
 
+## 📌 Voraussetzungen
+- ✅ Ein Discord-Bot und seinen Token vom [Discord Developer Portal](https://discord.com/developers/applications)
+- ✅ ESX und oxmysql (optional, für einige Funktionen erforderlich, kann aber einfach auf standalone geändert werden)
+
 ## 📥 Installation
 1. **📂 Dateien einfügen**
    - Lade die Dateien herunter und verschiebe sie in deinen `resources`-Ordner von FiveM.
@@ -29,9 +33,32 @@ Ein Discord-Bot zur Interaktion mit einem FiveM-Server. Dieser Bot ermöglicht e
 - 🔍 `Spieler ID (Meistens)` - Gib den betreffenden Spieler an.
 - ❌ `Zusatzparamter (Command abhängig)` - Gebe Zusatzparamter an.
 
-## 📌 Voraussetzungen
-- ✅ Ein Discord-Bot und seinen Token vom [Discord Developer Portal](https://discord.com/developers/applications)
-- ✅ ESX und oxmysql (optional, für einige Funktionen erforderlich, kann aber einfach auf standalone geändert werden)
+### 🤖 Bot Commands
+#### 📌 Allgemein
+- `!test` - Printet Test Nachrichten
+- `!status` - Zeigt alle Spieler des Servers
+
+#### 👥 Spieler
+- `!info [ID]` - Zeigt die Informationen eines Spielers an
+- `!kill [ID]` - Tötet den Spieler mit der ID
+- `!revive [ID]` - Wiederbelebt den Spieler mit der ID
+- `!reviveall` - Wiederbelebt alle Spieler
+- `!heal [ID]` - Heilt einen Spieler
+- `!dm [ID] [TEXT]` - Sendet eine Direktnachricht an den Spieler
+- `!kick [ID] [GRUND]` - Kickt den Spieler mit Grund
+- `!giveitem [ID] [ITEM] [ANZAHL]` - Gib dem Spieler ein Item
+- `!removeitem [ID] [ITEM] [ANZAHL]` - Entferne dem Spieler ein Item
+- `!clearinv [ID]` - Lösche das Inventar des Spielers
+- `!givemoney [ID] [ACCOUNT] [BETRAG]` - Gib dem Spieler Geld
+- `!removemoney [ID] [ACCOUNT] [BETRAG]` - Entferne dem Spieler Geld
+- `!setjob [ID] [JOB] [RANG]` - Gib dem Spieler einen Job
+- `!setgroup [ID] [GRUPPE]` - Setze dem Spieler eine Rolle
+- `!setname [ID] [NAME]` - Setze den Spielernamen
+
+#### 🚗 Auto
+- `!dv [PLATE]` - Lösche das Auto mit dem Kennzeichen auf dem Server (Nicht in der Datenbank)
+- `!car [ID] [AUTO]` - Spawne dem Spieler ein Auto
+- `!givecar [ID] [AUTO]` - Gebe dem Spieler ein Auto (Mit Datenbank Speicherung)
 
 ## 🛠️ Developer Docs
 Hier sind die verfügbaren Funktionen für Entwickler, falls ihr Commands ändern oder hinzufügen wollt:
@@ -64,4 +91,3 @@ Hier sind die verfügbaren Funktionen für Entwickler, falls ihr Commands änder
 ### 🖥️ sendcmd(msg, type)
 - **Parameter:** Nachricht, Error oder Success
 - **Beschreibung:** Sendet eine Nachricht in die Server-Konsole.
-
