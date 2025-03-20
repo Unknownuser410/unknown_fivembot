@@ -38,7 +38,7 @@ Ein Discord-Bot zur Interaktion mit einem FiveM-Server. Dieser Bot ermöglicht e
 - `!test` - Printet Test Nachrichten
 - `!status` - Zeigt alle Spieler des Servers
 
-#### 👥 Spieler
+### 👥 Spieler
 - `!info [ID]` - Zeigt die Informationen eines Spielers an
 - `!kill [ID]` - Tötet den Spieler mit der ID
 - `!revive [ID]` - Wiederbelebt den Spieler mit der ID
@@ -55,7 +55,7 @@ Ein Discord-Bot zur Interaktion mit einem FiveM-Server. Dieser Bot ermöglicht e
 - `!setgroup [ID] [GRUPPE]` - Setze dem Spieler eine Rolle
 - `!setname [ID] [NAME]` - Setze den Spielernamen
 
-#### 🚗 Auto
+### 🚗 Auto
 - `!dv [PLATE]` - Lösche das Auto mit dem Kennzeichen auf dem Server (Nicht in der Datenbank)
 - `!car [ID] [AUTO]` - Spawne dem Spieler ein Auto
 - `!givecar [ID] [AUTO]` - Gebe dem Spieler ein Auto (Mit Datenbank Speicherung)
