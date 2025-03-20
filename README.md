@@ -96,7 +96,7 @@ Hier sind die verfügbaren Funktionen für Entwickler, falls ihr Commands änder
 - **Beschreibung:** Sendet eine Nachricht in die Server-Konsole.
 
 ## 🛠️ Developer Docs - Exports
-- **Nutzung:** exports["unknown_fivembot"]:exportname(data)
+- **Nutzung in anderen Scripts:** exports["unknown_fivembot"]:exportname(data)
 
 ### Verfügbare Exports:
 - checkifhasrole
