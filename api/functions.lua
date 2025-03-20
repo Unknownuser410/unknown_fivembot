@@ -154,7 +154,7 @@ end
 
 
 --exports--
-exports("checkifhasrole", getRoles);
+exports("checkifhasrole", checkifhasrole);
 exports("getRoles", getRoles);
 exports("senddiscorddmmsg", senddiscorddmmsg);
 exports("senddiscordmsg", senddiscordmsg);
